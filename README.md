@@ -1,15 +1,19 @@
 # `mergyaml`
+
 A command line tool to deep merge 1 to many yaml files and command line string
 representations of a dict.  The merged result can be written to one of the
 input files or a new file.
 
 ## Install
+
 **Requirement:** Python 2.7
+
 ```console
 pip install git+https://github.com/erkolson/mergeyaml
 ```
 
 ## Usage
+
 ```console
 Usage: mergeyaml [OPTIONS]
 
@@ -19,9 +23,11 @@ Options:
   -f, --file FILENAME    A file to merge, also used to write output.
   -o, --output FILENAME  An output file to use for writing merged yaml.
   --set TEXT             A string representation of a dict to merge.
-  --help                 Show this message and exit.```
+  --help                 Show this message and exit.
+```
 
 Given `test.yaml`
+
 ```
 web:
   replicas: 1
@@ -29,7 +35,9 @@ web:
     tag: 1.0.3
     repository: erikolson/env-test
 ```
+
 And `test2.yaml`
+
 ```
 web:
   image:
