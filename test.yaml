@@ -1,6 +1,5 @@
----
 web:
   replicas: 1
   image:
-    repository: erikolson/env-test
     tag: 1.0.3
+    repository: erikolson/env-test
