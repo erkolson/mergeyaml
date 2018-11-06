@@ -41,13 +41,13 @@ spec:
 
   stages {
 
-    stage('Checkout code') {
-      steps {
-        container('k8s-node') {
-            checkout scm
-        }
-      }
-    }
+    // stage('Checkout code') {
+    //   steps {
+    //     container('k8s-node') {
+    //         checkout scm
+    //     }
+    //   }
+    // }
 
     stage('test') {
       steps {
