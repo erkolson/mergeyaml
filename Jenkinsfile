@@ -12,7 +12,7 @@ metadata:
 spec:
   containers:
   - name: k8s-node
-    image: gcr.io/oerik-test-project/jenkins-k8s-node:1.3.1
+    image: gcr.io/oerik-test-project/jenkins-k8s-node:1.3.2
     imagePullPolicy: Always
     command:
     - cat
